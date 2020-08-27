@@ -88,6 +88,9 @@ class MyRewardedVideoAdapter : BaseAd() {
     }
 
     override fun load(context: Context, adData: AdData) {
+        if (context is Activity) {
+            lastActivity = context
+        }
         msg(context, "load")
         mLoadListener.onAdLoaded()
     }
