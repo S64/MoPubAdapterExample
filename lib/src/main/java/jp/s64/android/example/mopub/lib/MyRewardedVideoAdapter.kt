@@ -6,9 +6,12 @@ import android.content.Context
 import android.util.Log
 import android.widget.Toast
 import com.mopub.common.LifecycleListener
+import com.mopub.common.MoPub
 import com.mopub.common.MoPubReward
 import com.mopub.mobileads.AdData
 import com.mopub.mobileads.BaseAd
+import com.mopub.mobileads.MoPubAd
+import com.mopub.mobileads.MoPubRewardedVideos
 
 class MyRewardedVideoAdapter : BaseAd() {
 

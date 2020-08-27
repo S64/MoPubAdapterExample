@@ -61,8 +61,6 @@ class AdDelegate(
     }
 
     fun onCreate() {
-        (self.application as MyApp).initMoPub(self)
-
         load.setOnClickListener {
             MoPubRewardedVideos.loadRewardedVideo(MyApp.adUnitId, MyMediationSettings())
             refreshUi()
