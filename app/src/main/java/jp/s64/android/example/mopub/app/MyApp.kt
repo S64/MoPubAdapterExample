@@ -20,10 +20,6 @@ class MyApp : Application() {
     }
 
     fun initMoPub(source: Activity) {
-        if (MoPub.isSdkInitialized()) {
-            return
-        }
-
         val conf = SdkConfiguration.Builder(adUnitId)
             .withMediatedNetworkConfiguration(
                 MyAdapterConfiguration.javaClass.name,

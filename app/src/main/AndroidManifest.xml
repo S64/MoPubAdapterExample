@@ -28,6 +28,10 @@
             android:name=".NonLifecycleConnectedAdActivity"
             android:label="NonLifecycle"/>
 
+        <activity
+            android:name=".MultiInitializeAdActivity"
+            android:label="MultiInitialize"/>
+
     </application>
 
 </manifest>
